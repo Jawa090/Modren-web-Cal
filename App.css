@@ -1,0 +1,40 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.summary-list-container {
+  position: relative;
+  width: 300px; 
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  background-color: whitesmoke;
+  margin-top: 5px;
+  border: 2px solid black;
+}
+
+.btn-custom {
+  background-color: #007bff;
+  border-color: 1px solid black;
+  width: 100px;
+  margin-left: 46%;
+}
